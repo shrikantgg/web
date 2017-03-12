@@ -1,0 +1,577 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "foodcart";
+  src:url("fonts/foodcart.eot");
+  src:url("fonts/foodcart.eot?#iefix") format("embedded-opentype"),
+    url("fonts/foodcart.woff") format("woff"),
+    url("fonts/foodcart.ttf") format("truetype"),
+    url("fonts/foodcart.svg#foodcart") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "foodcart" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "foodcart" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-covered-food-tray-on-a-hand-of-hotel-room-service:before {
+  content: "\61";
+}
+.icon-dinner:before {
+  content: "\62";
+}
+.icon-pizza-with-mushrooms:before {
+  content: "\63";
+}
+.icon-restaurant-cutlery-circular-symbol-of-a-spoon-and-a-fork-in-a-circle:before {
+  content: "\64";
+}
+.icon-tea-cup:before {
+  content: "\65";
+}
+.icon-baati:before {
+  content: "\66";
+}
+.icon-bhatura:before {
+  content: "\67";
+}
+.icon-biryani:before {
+  content: "\68";
+}
+.icon-chaat:before {
+  content: "\69";
+}
+.icon-chana-masala:before {
+  content: "\6a";
+}
+.icon-chapati:before {
+  content: "\6b";
+}
+.icon-chole-bhature:before {
+  content: "\6c";
+}
+.icon-dal-makhani:before {
+  content: "\6d";
+}
+.icon-dhansak:before {
+  content: "\6e";
+}
+.icon-dum-aloo:before {
+  content: "\6f";
+}
+.icon-gajar-ka-halwa:before {
+  content: "\70";
+}
+.icon-iryani:before {
+  content: "\71";
+}
+.icon-kachori:before {
+  content: "\72";
+}
+.icon-momo:before {
+  content: "\73";
+}
+.icon-murukku:before {
+  content: "\74";
+}
+.icon-palak-paneer:before {
+  content: "\75";
+}
+.icon-pomfret:before {
+  content: "\76";
+}
+.icon-rogan-josh:before {
+  content: "\77";
+}
+.icon-shondesh:before {
+  content: "\78";
+}
+.icon-tandoori:before {
+  content: "\79";
+}
+.icon-apron:before {
+  content: "\7a";
+}
+.icon-artichoke:before {
+  content: "\41";
+}
+.icon-avocado:before {
+  content: "\42";
+}
+.icon-bacon:before {
+  content: "\43";
+}
+.icon-banana:before {
+  content: "\44";
+}
+.icon-beer:before {
+  content: "\45";
+}
+.icon-beer-1:before {
+  content: "\46";
+}
+.icon-beer-2:before {
+  content: "\47";
+}
+.icon-bell-pepper:before {
+  content: "\48";
+}
+.icon-birthday-cake:before {
+  content: "\49";
+}
+.icon-blender:before {
+  content: "\4a";
+}
+.icon-bread:before {
+  content: "\4b";
+}
+.icon-bread-1:before {
+  content: "\4c";
+}
+.icon-broccoli:before {
+  content: "\4d";
+}
+.icon-burger:before {
+  content: "\4e";
+}
+.icon-burrito:before {
+  content: "\4f";
+}
+.icon-cabbage:before {
+  content: "\50";
+}
+.icon-carrot:before {
+  content: "\51";
+}
+.icon-champagne:before {
+  content: "\52";
+}
+.icon-cheese:before {
+  content: "\53";
+}
+.icon-cheese-burger:before {
+  content: "\54";
+}
+.icon-cherries:before {
+  content: "\55";
+}
+.icon-chicken-leg:before {
+  content: "\56";
+}
+.icon-cinnamon-roll:before {
+  content: "\57";
+}
+.icon-cleaver:before {
+  content: "\58";
+}
+.icon-coffee:before {
+  content: "\59";
+}
+.icon-coffee-1:before {
+  content: "\5a";
+}
+.icon-corkscrew:before {
+  content: "\30";
+}
+.icon-corncob:before {
+  content: "\31";
+}
+.icon-crab:before {
+  content: "\32";
+}
+.icon-cutlery:before {
+  content: "\33";
+}
+.icon-doughnut:before {
+  content: "\34";
+}
+.icon-drink:before {
+  content: "\35";
+}
+.icon-eggplant:before {
+  content: "\36";
+}
+.icon-energy-drink:before {
+  content: "\37";
+}
+.icon-fish:before {
+  content: "\38";
+}
+.icon-french-fries:before {
+  content: "\39";
+}
+.icon-fried-egg:before {
+  content: "\21";
+}
+.icon-fried-egg-1:before {
+  content: "\22";
+}
+.icon-frozen-yogurt:before {
+  content: "\23";
+}
+.icon-glass:before {
+  content: "\24";
+}
+.icon-grapes:before {
+  content: "\25";
+}
+.icon-hot-dog:before {
+  content: "\26";
+}
+.icon-jelly:before {
+  content: "\27";
+}
+.icon-ketchup:before {
+  content: "\28";
+}
+.icon-kettle:before {
+  content: "\29";
+}
+.icon-kiwi:before {
+  content: "\2a";
+}
+.icon-ladle:before {
+  content: "\2b";
+}
+.icon-lemon:before {
+  content: "\2c";
+}
+.icon-lemonade:before {
+  content: "\2d";
+}
+.icon-lemonade-1:before {
+  content: "\2e";
+}
+.icon-lobster:before {
+  content: "\2f";
+}
+.icon-masher:before {
+  content: "\3a";
+}
+.icon-milk-bottle:before {
+  content: "\3b";
+}
+.icon-muffin:before {
+  content: "\3c";
+}
+.icon-mussel:before {
+  content: "\3d";
+}
+.icon-olive-oil:before {
+  content: "\3e";
+}
+.icon-olives:before {
+  content: "\3f";
+}
+.icon-onion:before {
+  content: "\40";
+}
+.icon-orange:before {
+  content: "\5b";
+}
+.icon-pancakes:before {
+  content: "\5d";
+}
+.icon-pear:before {
+  content: "\5e";
+}
+.icon-pie:before {
+  content: "\5f";
+}
+.icon-pineapple:before {
+  content: "\60";
+}
+.icon-pizza:before {
+  content: "\7b";
+}
+.icon-pizza-cutter:before {
+  content: "\7c";
+}
+.icon-pumpkin:before {
+  content: "\7d";
+}
+.icon-radish:before {
+  content: "\7e";
+}
+.icon-rice:before {
+  content: "\5c";
+}
+.icon-roast-chicken:before {
+  content: "\e000";
+}
+.icon-rolling-pin:before {
+  content: "\e001";
+}
+.icon-salad:before {
+  content: "\e002";
+}
+.icon-salt:before {
+  content: "\e003";
+}
+.icon-sandwich:before {
+  content: "\e004";
+}
+.icon-shrimp:before {
+  content: "\e005";
+}
+.icon-skewer:before {
+  content: "\e006";
+}
+.icon-soda:before {
+  content: "\e007";
+}
+.icon-soda-1:before {
+  content: "\e008";
+}
+.icon-soda-2:before {
+  content: "\e009";
+}
+.icon-soda-3:before {
+  content: "\e00a";
+}
+.icon-soup:before {
+  content: "\e00b";
+}
+.icon-spaghetti:before {
+  content: "\e00c";
+}
+.icon-steak:before {
+  content: "\e00d";
+}
+.icon-strawberry:before {
+  content: "\e00e";
+}
+.icon-sushi:before {
+  content: "\e00f";
+}
+.icon-sushi-1:before {
+  content: "\e010";
+}
+.icon-tomato:before {
+  content: "\e011";
+}
+.icon-vinegar:before {
+  content: "\e012";
+}
+.icon-water:before {
+  content: "\e013";
+}
+.icon-water-1:before {
+  content: "\e014";
+}
+.icon-watermelon:before {
+  content: "\e015";
+}
+.icon-whisk:before {
+  content: "\e016";
+}
+.icon-wine-glass:before {
+  content: "\e017";
+}
+.icon-wine-glass-1:before {
+  content: "\e018";
+}
+.icon-breakfast:before {
+  content: "\e019";
+}
+.icon-chef:before {
+  content: "\e01a";
+}
+.icon-chinese-food:before {
+  content: "\e01b";
+}
+.icon-dish:before {
+  content: "\e01c";
+}
+.icon-fish-1:before {
+  content: "\e01d";
+}
+.icon-hamburger:before {
+  content: "\e01e";
+}
+.icon-hot-dog-1:before {
+  content: "\e01f";
+}
+.icon-ice-cream:before {
+  content: "\e020";
+}
+.icon-juice:before {
+  content: "\e021";
+}
+.icon-menu:before {
+  content: "\e022";
+}
+.icon-milkshake:before {
+  content: "\e023";
+}
+.icon-noodles:before {
+  content: "\e024";
+}
+.icon-olive-oil-1:before {
+  content: "\e025";
+}
+.icon-pancakes-1:before {
+  content: "\e026";
+}
+.icon-pie-1:before {
+  content: "\e027";
+}
+.icon-plate:before {
+  content: "\e028";
+}
+.icon-prawn-cocktail:before {
+  content: "\e029";
+}
+.icon-room-service:before {
+  content: "\e02a";
+}
+.icon-salad-1:before {
+  content: "\e02b";
+}
+.icon-salad-1-1:before {
+  content: "\e02c";
+}
+.icon-salt-and-pepper:before {
+  content: "\e02d";
+}
+.icon-sandwich-1:before {
+  content: "\e02e";
+}
+.icon-shrimp-1:before {
+  content: "\e02f";
+}
+.icon-sushi-2:before {
+  content: "\e030";
+}
+.icon-table:before {
+  content: "\e031";
+}
+.icon-taco:before {
+  content: "\e032";
+}
+.icon-tea-cup-1:before {
+  content: "\e033";
+}
+.icon-teapot:before {
+  content: "\e034";
+}
+.icon-tray:before {
+  content: "\e035";
+}
+.icon-wine:before {
+  content: "\e036";
+}
+.icon-bar:before {
+  content: "\e037";
+}
+.icon-bill:before {
+  content: "\e038";
+}
+.icon-cookbook:before {
+  content: "\e039";
+}
+.icon-cooker:before {
+  content: "\e03a";
+}
+.icon-cooker-1:before {
+  content: "\e03b";
+}
+.icon-cooking:before {
+  content: "\e03c";
+}
+.icon-cutlery-1:before {
+  content: "\e03d";
+}
+.icon-daily-specials-board:before {
+  content: "\e03e";
+}
+.icon-dinner-1:before {
+  content: "\e03f";
+}
+.icon-fish-2:before {
+  content: "\e040";
+}
+.icon-grill:before {
+  content: "\e041";
+}
+.icon-hot-drink:before {
+  content: "\e042";
+}
+.icon-ice-cream-1:before {
+  content: "\e043";
+}
+.icon-meat:before {
+  content: "\e044";
+}
+.icon-menu-1:before {
+  content: "\e045";
+}
+.icon-open:before {
+  content: "\e046";
+}
+.icon-padnote:before {
+  content: "\e047";
+}
+.icon-pasta:before {
+  content: "\e048";
+}
+.icon-placeholder:before {
+  content: "\e049";
+}
+.icon-restaurant:before {
+  content: "\e04a";
+}
+.icon-restaurant-app:before {
+  content: "\e04b";
+}
+.icon-salver:before {
+  content: "\e04c";
+}
+.icon-soup-1:before {
+  content: "\e04d";
+}
+.icon-spicy-food:before {
+  content: "\e04e";
+}
+.icon-sushi-3:before {
+  content: "\e04f";
+}
+.icon-table-1:before {
+  content: "\e050";
+}
+.icon-take-away:before {
+  content: "\e051";
+}
+.icon-vegetarian:before {
+  content: "\e052";
+}
+.icon-waiter:before {
+  content: "\e053";
+}
+.icon-wifi-connection:before {
+  content: "\e054";
+}
